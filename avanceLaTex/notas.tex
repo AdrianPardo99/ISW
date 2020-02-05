@@ -85,28 +85,31 @@
 \clearpage
 %Contenidos
 \section{Nombre del proyecto}
-
-\section{Objetivo}
+Compihinador
+\subsection{Objetivo}
 El aprendizaje de lenguajes de programación actualmente tiene muchas vertientes en las cuales se puede partir desde lenguajes con una curva de aprendizaje muy sencilla y fluida, hasta lenguajes en los que su curva de aprendizaje implican el uso de algunas notaciones matemáticas o algunas notaciones que impliquen una alta abstracción del lenguaje.
 \begin{center}
   \includegraphics[scale=0.7]{imgs/python.png}
   \\\textit{Figura 1: Python siendo mayormente usado como lenguaje de programación, siendo un lenguaje mayormente interpretado}\\
+\end{center}
+En algunos casos el uso de lenguajes que son interpretados, generan un consumo significativo de energía y esto en volumenes enormes de información genera problemas en la industria e incluso en las pruebas de performance.
+\begin{center}
   \includegraphics[scale=0.7]{imgs/tabla2.png}
   \\\textit{Figura 2: Tabla de resultados de uso de energía, tiempo y peso en disco de cada lenguaje de programación a los que se realizaron pruebas }\\{\scriptsize Documento de: How Do Energy, Time, and Memory Relate?}
 \end{center}
-\section{Descripción del proyecto}
-
-\section{Funciones principales}
+\subsection{Descripción del proyecto}
+El compilador realizara uso de modulos de herramientas que nos puede proporcionar el software especializado para la creación y descripción de compiladores, en los cuales se buscara realizar una aproximación de que el compilador y el uso de memoria no cree un consumo excedente de energía, memoria o tiempo al generar el código objeto.
+\subsection{Funciones principales}
 El compilador es realizado con el fin de poder tener una mejor cercanía con usuarios principiantes los cuales tiene noción de algunos lenguajes de programación como son $Python$, $Ruby$, $Perl$, $etc$.\\Si bien estos lenguajes son considerados lenguajes de alto nivel, se pretende realizar un compilador que realice algunas  operaciones en las que puedan tener un acercamiento a estos tipos de lenguajes y que más tarde puedan mudar de un lenguaje a otro.
-\section{Justificación}
+\subsection{Justificación}
 El proyecto a desarrollar contiene algunos puntos a resaltar de los cuales son Hardware y Software en el que se realizara el desarrollo del producto y de su documentación.
-\subsection{Hardware}
+\subsubsection{Hardware}
 \begin{itemize}
   \item El hardware en el que sera desarrollado el proyecto trajara bajo una arquitectura x86\_64, debido a que es el actual estandar de desarrollo.
   \item El equipo deseablemente contara con al menos 4GB de RAM.
   \item Procesador dualcore o más cores superior a 1GHz.
 \end{itemize}
-\subsection{Software}
+\subsubsection{Software}
 \begin{itemize}
   \item El producto pretende crear un pseudolenguaje que se compila y pretende tener una mejor cercanía con el programador principiante.
   \item El Sistema Operativo en el que se desarrollara y sera la plataforma en la que se ejecutara el proyecto sera en sistema Linux, debido a que las herramientas de trabajo como el analizador léxico, sintactico y semantico pueden encontrarse en paqueterias libres que proporciona Linux.
@@ -114,13 +117,15 @@ El proyecto a desarrollar contiene algunos puntos a resaltar de los cuales son H
   \item Tambien se en la instalación de la paqueteria del compilador se añadiran los manuales pertinentes para que el usuario pueda trabajar correctamente con el producto.
 \end{itemize}
 
-\section{Innovación}
+\subsection{Innovación}
+La innovación del producto de software es el hacer uso de estandares que nos pueden proporcionar el estandar de POSIX, y algunas otras buenas practicas de la programación de modulos de software.\\
+Por otro lado tambien es necesario el hacer uso de algoritmos que permitan optimizar el uso de energía que genera la creación y ejecución de código en su entorno de programación.\\
+Por lo tanto, si bien es un tiempo corto para la realización de todas las actualizaciones y desarrollo, es bueno planificar el hecho de que pueda existir una aproximación a prototipos del compilador.
+\subsection{Complejidad}
 
-\section{Complejidad}
-
-\section{Paradigma de desarrollo}
+\subsection{Paradigma de desarrollo}
 El paradigma a utilizar para el proyecto sera el uso de prototipos, así como en la escritura de código sera en el paradigma Estructurado ya que este nos permitira trabajar con las herramientas que nos ofrece el Sistema Operativo, y un poco de paradigma Orientado a Objetos para hacer uso de algunas herramientas que nos ofrece el mismo, como la modularidad y el uso de algunos empaquetamientos.
-\section{Tecnicas de desarrollo}
+\subsection{Tecnicas de desarrollo}
 Para la recolección de requisitos se llevara acabo una encuesta en la cual nos permitira recabar información, en la cual podremos interpretar la dirección final y los detalles a pulir del proyecto, en los cuales podremos saber si los encuestados tienen una facilidad o dificultad a la hora de trabajar con un lenguaje de programación compilado.\\
 Los hitos planificados del proyecto es trabjarlo con base en el modelo de prototipos para despúes poder refinar los hitos consiguientes, debido a que es un modelo más sencillos para la realización del producto.\\
 Tambien se planea el uso de paradigmas como el orientado a objetos y el estructurado para el desarrollo de los modulos/prototipos.
